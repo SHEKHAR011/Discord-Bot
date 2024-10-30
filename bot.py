@@ -90,7 +90,7 @@ async def on_message(message):
         return
 
     # If the message content is related to weather or convert, skip processing
-    if message.content.startswith("=weather") or message.content.startswith("=convert"):
+    if message.content.startswith("!weather") or message.content.startswith("!convert"):
         # Process the command without generating additional output
         await bot.process_commands(message)
         return
