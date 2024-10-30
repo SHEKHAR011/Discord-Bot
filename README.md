@@ -46,7 +46,7 @@ This project is a Discord bot written in Python that integrates with three APIs 
 - **bot.py**: Main entry point for the bot.
 - **.env**: Holds API keys and configuration variables.
 
-  ##  libraries need to be install
+##  libraries need to be install
 
   - pip install discord.py
   - pip install requests
