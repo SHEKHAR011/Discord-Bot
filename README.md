@@ -21,8 +21,8 @@ This project is a Discord bot written in Python that integrates with three APIs 
 
 ### Currency Conversion
 - **Description**: Converts an amount from one currency to another.
-- **Usage**: `!convert <amount> <from_currency> to <to_currency>`
-- **Example**: `!convert 100 USD to EUR`
+- **Usage**: `!convert <amount> <from_currency> <to_currency>`
+- **Example**: `!convert 100 USD EUR`
 
 
 ## Getting Started
