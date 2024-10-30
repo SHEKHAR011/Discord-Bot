@@ -1,6 +1,6 @@
 # Discord Bot Project
 
-This project is a Discord bot written in Python that integrates with three APIs to provide conversational AI responses, real-time weather updates, and currency conversions.
+This project is a Discord bot written in Python that integrates with three APIs to provide conversational AI responses(Gemini), real-time weather updates, and currency conversions.
 
 ## Features
 
