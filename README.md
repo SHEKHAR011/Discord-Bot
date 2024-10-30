@@ -45,4 +45,15 @@ This project is a Discord bot written in Python that integrates with three APIs 
 
 - **bot.py**: Main entry point for the bot.
 - **.env**: Holds API keys and configuration variables.
+
+  ##  libraries need to be install
+  
+  pip install discord.py
+  pip install requests
+  pip install google-generativeai
+  pip install python-dotenv
+  pip install pycopy-audioop
+
+
+
   
