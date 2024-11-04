@@ -35,4 +35,3 @@ This project is a powerful and customizable Discord bot built using Python. It i
   - pip install requests
   - pip install google-generativeai
   - pip install python-dotenv
-  - pip install pycopy-audioop
