@@ -12,7 +12,6 @@ GENAI_API_KEY = os.getenv("GENAI_API_KEY")  # Set this in your .env file
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")  # Set this in your .env file
 
 # Configure the API key directly
-
 genai.configure(api_key=GENAI_API_KEY)
 
 # Create a model instance for Gemini
@@ -23,11 +22,9 @@ intents = discord.Intents.all()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-
 @bot.event
 async def on_ready():
     print(f"We have logged in as {bot.user}")
-
 
 # Chat bot functionality
 @bot.event
@@ -47,6 +44,9 @@ async def on_message(message):
         # Extract the generated text
         chat_response = response.text
 
+        # Log the response to the terminal
+        print(f"Gemini responded: {chat_response}")
+
         # Split the text into chunks if it's too long
         max_length = 2000
         if len(chat_response) > max_length:
@@ -62,7 +62,6 @@ async def on_message(message):
         await message.channel.send(f"An error occurred: {e}")
 
     await bot.process_commands(message)  # Process other commands
-
 
 # Run the bot with your token
 bot.run(DISCORD_TOKEN)  # Replace with your actual Discord bot token
