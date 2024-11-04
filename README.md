@@ -10,14 +10,6 @@ This project is a powerful and customizable Discord bot built using Python. It i
 - **Modular Code Structure**: Commands and API interactions are organized for maintainability and scalability.
 - **Environment Variable Management**: Secure storage of API keys and other sensitive information using `.env` files.
 
-
-## Commands
-
-### AI Chat
-- **Description**: The bot responds to general prompts using the Gemini API.
-- **Usage**: Simply type your message, and the bot will reply.
-
-
 ## Getting Started
 
 1. **API Keys**:
@@ -44,7 +36,3 @@ This project is a powerful and customizable Discord bot built using Python. It i
   - pip install google-generativeai
   - pip install python-dotenv
   - pip install pycopy-audioop
-
-
-
-  
