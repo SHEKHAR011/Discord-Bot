@@ -15,9 +15,11 @@ Additionally, the bot can be run and managed directly from the command line (CLI
 
 ## Preview
 
-| Discord Chat Interaction | CLI Bot Running |
+| Discord Chat Interaction 
 |--------------------------|-----------------|
-| ![Discord Chat](ScreenShot_20250520142541.png) | ![CLI Running](ScreenShot_20250520142726.png) |
+| ![Discord Chat](ScreenShot_20250520142541.png) 
+| CLI Bot Running |
+| ![CLI Running](ScreenShot_20250520142726.png) |
 
 *(Replace the image paths with your actual screenshots)*
 
