@@ -21,7 +21,7 @@ Additionally, the bot can be run and managed directly from the command line (CLI
 ### CLI Bot Running (User Input/Output)
 ![CLI Running](ScreenShot_20250520142726.png)
 
-*(Replace the image paths with your actual screenshots)*
+
 
 ## Getting Started
 
